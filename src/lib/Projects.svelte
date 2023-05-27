@@ -28,19 +28,19 @@
         <Card 
             title="Auto Minecart" 
             description="A useful Minecraft plugin that mimics Terraria minecarts." 
-            src="../assets/auto_minecart.png" alt="Auto Minecart plugin logo"
+            src="https://i.imgur.com/7TjMOoF.png" alt="Auto Minecart plugin logo"
             icons={autoMinecartIcons}
         />
         <Card 
             title="Bored Bot" 
             description="A Discord bot to get something to do when you're bored!" 
-            src="./src/assets/bored_bot.png" alt="Bored bot logo"
+            src="https://i.imgur.com/Rk9ZwKV.png" alt="Bored bot logo"
             icons={boredBotIcons}
         />
         <Card 
             title="More Beautiful Buttons" 
             description="Over 200 vanilla Minecraft blocks craftable into buttons!" 
-            src="./src/assets/buttons.png" 
+            src="https://i.imgur.com/OLLpMOh.png" 
             alt="Minecraft buttons"
             icons={mBBIcons}
         />    

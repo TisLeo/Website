@@ -1,5 +1,5 @@
 <footer>
-    <img src="./src/assets/leo_logo.png" alt="TisLeo Logo">
+    <img src="https://i.imgur.com/dm1SddH.png" alt="TisLeo Logo">
     <p>© TisLeo 2023</p>
     <br>
     <div id="items">
