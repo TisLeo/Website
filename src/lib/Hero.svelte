@@ -12,7 +12,7 @@
 
 <style>
     section {
-        margin-top: 2rem;
+        margin-top: 6rem;
     }
 
     @media only screen and (max-width: 640px) {

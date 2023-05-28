@@ -21,9 +21,14 @@
         background-color: black;
         display: flex;  
         justify-content: space-between;
+        top: 0;
+        width: 70%;
+        margin: 0 auto;
+        position: fixed;
         align-items: center;
         height: 4rem;
         box-shadow: 0 4px 4px -2px rgba(255, 255, 255, .2);
+        
     }
 
     a {
