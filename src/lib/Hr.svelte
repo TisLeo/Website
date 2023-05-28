@@ -4,7 +4,6 @@
 
 <style>
 #hr {
-    margin: 2.5rem 0 1.8rem 0;
     width: 100%;
     display: flex;
     flex-basis: 100%;
