@@ -51,7 +51,7 @@
         <Card 
             title="Bored Bot" 
             description="A Discord bot to get something to do when you're bored!" 
-            src="https://i.imgur.com/Rk9ZwKV.png" alt="Bored bot logo"
+            src="https://imgur.com/MQLha6s.png" alt="Bored bot logo"
             icons={boredBotIcons}
         />
         <Card 
