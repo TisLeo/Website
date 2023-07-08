@@ -1,9 +1,9 @@
 <nav>
     <div id="items">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="#tech">Tech</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li class="title"><a href="/">Home</a></li>
+            <li class="title"><a href="#tech">Tech</a></li>
+            <li class="title"><a href="#projects">Projects</a></li>
         </ul>
     </div>
 
@@ -22,13 +22,13 @@
         display: flex;  
         justify-content: space-between;
         top: 0;
-        width: 70%;
-        margin: 0 auto;
-        position: fixed;
+        left: 0;
+        width: 100%;
+        position: sticky;
         align-items: center;
         height: 4rem;
         box-shadow: 0 4px 4px -2px rgba(255, 255, 255, .2);
-        
+        transition: 0.2s ease-in-out;
     }
 
     a {
@@ -44,11 +44,11 @@
     }
 
     #items {
-        margin-left: 1rem;
+        margin-left: 15%;
     }
 
     #icons {
-        margin-right: 1rem;
+        margin-right: 15%;
     }
 
     #icons a {

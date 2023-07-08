@@ -10,14 +10,15 @@
 <main>
   <Navbar />
 
-  <Hero />
-  <Hr />
+  <div id="container">
+    <Hero />
+    <Hr />
 
-  <Tech />
-  <Hr />
+    <Tech />
+    <Hr />
 
-  <Projects />
-  <Hr />
+    <Projects />
+  </div>
 
   <Footer />
 </main>
@@ -26,5 +27,10 @@
   :global(:root) {
     --color-accent: #60B8D3;;
     --color-light-grey: #707070;
+  }
+
+  #container {
+    width: 70%;
+    margin: 0 auto;
   }
 </style>

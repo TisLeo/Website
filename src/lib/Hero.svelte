@@ -1,7 +1,6 @@
 <section>
-    <h1>TisLeo</h1>
-    <h2 style="color: white;">Welcome to my <span id="strike">average</span> portfolio!</h2>
-    <p id="egg">(can you tell I'm amazing at webdev?)</p>
+    <h1 class="title">TisLeo</h1>
+    <h2 class="title" style="color: white;">Welcome to my portfolio!</h2>
 
     <br><br>
 
@@ -22,12 +21,25 @@
     }
 
     h1 {
-        background: linear-gradient(45deg, #1582D0, #6EBBF3);
+        background: linear-gradient(45deg, #65efea, #387fc5, #2933be);
+        background-size: 200% 200%;
+        animation: gradient 4s ease infinite;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-family: 'Courgette', sans-serif;
         padding: 0 2em 0 2em;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
     }
 
     h2 {
@@ -36,13 +48,6 @@
 
     h3 {
         text-align: center;
-    }
-
-    #strike {
-        text-decoration: line-through;
-    }
-
-    #egg {
-        color: var(--color-light-grey);
+        font-weight: 400;
     }
 </style>

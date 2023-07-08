@@ -3,8 +3,8 @@
 
     const autoMinecartIcons = [
         { iconClass: "fab fa-github", href: "https://github.com/tisleo/AutoMinecart", title: "View on GitHub" },
-        { iconClass: "fas fa-globe", href: "https://www.spigotmc.org/resources/autominecart.101327/", title: "View on Spigot"},
-        { iconClass: "fas fa-globe", href: "https://hangar.papermc.io/TisLeo/AutoMinecart", title: "View on Hangar"}
+        { iconClass: "fas fa-faucet", href: "https://www.spigotmc.org/resources/autominecart.101327/", title: "View on Spigot"},
+        { iconClass: "fas fa-plane", href: "https://hangar.papermc.io/TisLeo/AutoMinecart", title: "View on Hangar"}
     ]
 
     const boredBotIcons = [
@@ -14,13 +14,30 @@
 
     const mBBIcons = [
         { iconClass: "fab fa-github", href: "https://github.com/TisLeo/More-Beautiful-Buttons-Mod", title: "View on GitHub" },
-        { iconClass: "fas fa-globe", href: "https://www.curseforge.com/minecraft/mc-mods/more-beautiful-buttons-fabric", title: "View on CurseForge"},
+        { iconClass: "fas fa-gavel", href: "https://www.curseforge.com/minecraft/mc-mods/more-beautiful-buttons-fabric", title: "View on CurseForge"},
     ]
+
+    const jpadIcons = [
+        { iconClass: "fab fa-github", href: "https://github.com/TisLeo/JPad", title: "View on GitHub"}
+    ]
+
 </script>
 
 <section id="projects">
-    <h2>Projects</h2>
-    <p>The good stuff. More to come Soon<span id="tm">TM</span></p>
+    <h2 class="title">Projects</h2>
+    <p class="subtitle">The good stuff. More to come soon</p>
+
+    <br>
+
+    <div id="jpad">
+        <Card
+            title="⭐JPad⭐"
+            description="A modern, lightweight and cross-platform text editor with built-in themes and syntax highlighting for 50+ languages."
+            src="https://imgur.com/fSu9U6t.png" alt="JPad logo"
+            icons={jpadIcons}
+            glow={true}
+        />
+    </div>
 
     <br>
 
@@ -55,10 +72,9 @@
         justify-content: space-evenly;
     }
 
-    #tm {
-        vertical-align: super;
-        color: var(--color-light-grey);
-        font-size: .5rem;
+    #jpad {
+        width: 100%;
+        justify-content: space-evenly;
     }
 
     @media only screen and (max-width: 640px) {

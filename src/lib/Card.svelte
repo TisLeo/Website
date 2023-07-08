@@ -1,8 +1,11 @@
 <script lang="ts">
+    import { onMount } from "svelte";
+
     export let title: string;
     export let description: string;
     export let src: string;
     export let alt: string;
+    export let glow = false;
 
     interface Icon {
         iconClass: string;
@@ -10,10 +13,18 @@
         title: string;
     }
 
+    onMount(() => {
+        if (glow) {
+            const wrapper = document.getElementById("wrapper");
+            wrapper.style.boxShadow = "0px 0px 12px 2px var(--color-accent)";
+            wrapper.style.border = "none";
+        }
+    });
+
     export let icons: Icon[]; // icon class: href
 </script>
 
-<div id="container">
+<div id="wrapper">
         <img {src} {alt} />
 
         <div id="text">
@@ -33,7 +44,7 @@
 </div>
 
 <style>
-    #container {
+    #wrapper {
         border: 1px solid var(--color-light-grey);
         border-radius: 10px;
     }
@@ -57,8 +68,8 @@
         display: block;
         border-radius: 10px 10px 0 0;
         width: 100%;
-        max-height: 10em;
-        min-height: 10em;
+        max-height: 12em;
+        min-height: 12em;
         object-fit: cover;
     }
 

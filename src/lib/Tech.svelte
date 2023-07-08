@@ -1,6 +1,6 @@
 <section id="tech">
-    <h2>Tech</h2>
-    <p>Some languages and tools that I've previously worked with</p>
+    <h2 class="title">Tech</h2>
+    <p class="subtitle">Some languages and tools that I've previously worked with</p>
     
     <br>
 

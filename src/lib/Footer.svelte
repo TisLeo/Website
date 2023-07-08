@@ -4,9 +4,9 @@
     <br>
     <div id="items">
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="#tech">Tech</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li class="title"><a href="/">Home</a></li>
+            <li class="title"><a href="#tech">Tech</a></li>
+            <li class="title"><a href="#projects">Projects</a></li>
         </ul>
     </div>
 </footer>
