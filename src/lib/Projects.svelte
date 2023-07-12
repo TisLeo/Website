@@ -32,7 +32,7 @@
     <div id="jpad">
         <Card
             title="⭐JPad⭐"
-            description="A modern, lightweight and cross-platform text editor with built-in themes and syntax highlighting for 50+ languages."
+            description="A modern, lightweight and cross-platform text editor with built-in themes and syntax highlighting for 50+ languages. Currently in beta."
             src="https://imgur.com/fSu9U6t.png" alt="JPad logo"
             icons={jpadIcons}
             glow={true}
@@ -50,7 +50,7 @@
         />
         <Card 
             title="Bored Bot" 
-            description="A Discord bot to get something to do when you're bored!" 
+            description="A Discord bot written in Go to get something to do when you're bored!" 
             src="https://imgur.com/MQLha6s.png" alt="Bored bot logo"
             icons={boredBotIcons}
         />

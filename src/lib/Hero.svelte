@@ -6,7 +6,7 @@
 
     <h3>Hi! My name is Leo, but I go by TisLeo online. 
         I’m currently a computer science student and I love to code small projects in my spare time. I typically
-        prefer backend, but I like to dabble in frontend too (sometimes). I know that this portfolio isn’t too large or crazy, but I hope to change that in the future!</h3>    
+        prefer backend, but I sometimes like to dabble in frontend too (such as this website!). This portfolio isn’t too extraordinary, but I hope to change that in the future!</h3>    
 </section>
 
 <style>
