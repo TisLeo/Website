@@ -1,12 +1,11 @@
 <section>
     <h1 class="title">TisLeo</h1>
-    <h2 class="title" style="color: white;">Welcome to my portfolio!</h2>
+    <h2 class="title" style="color: white;">Welcome to my page!</h2>
 
     <br><br>
 
-    <h3>Hi! My name is Leo, but I go by TisLeo online. 
-        I’m currently a computer science student and I love to code small projects in my spare time. I typically
-        prefer backend, but I sometimes like to dabble in frontend too (such as this website!). This portfolio isn’t too extraordinary, but I hope to change that in the future!</h3>    
+    <h3>Hi! My name is Leo. I'm a computer science student from the UK and I love to code small projects in my spare time. I mostly
+        prefer backend, but sometimes I do frontend too (such as this website). Stick around for some cool projects!</h3>    
 </section>
 
 <style>
