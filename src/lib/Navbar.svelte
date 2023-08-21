@@ -4,13 +4,24 @@
             <li class="title"><a href="/">Home</a></li>
             <li class="title"><a href="#tech">Tech</a></li>
             <li class="title"><a href="#projects">Projects</a></li>
+            <li class="title"><a href="https://dev.to/tisleo">Blog</a></li>
         </ul>
     </div>
 
     <div id="icons">
         <ul>
-            <li><a title="Join my Discord server!" href="https://discord.gg/yx3gkv6Why"><i class="fa-brands fa-discord"></i></a></li>
-            <li><a title="Visit my GitHub!" href="https://github.com/TisLeo"><i class="fa-brands fa-github"></i></a></li>
+            <li>
+                <a
+                    title="Join my Discord server!"
+                    href="https://discord.gg/yx3gkv6Why"
+                    ><i class="fa-brands fa-discord" /></a
+                >
+            </li>
+            <li>
+                <a title="Visit my GitHub!" href="https://github.com/TisLeo"
+                    ><i class="fa-brands fa-github" /></a
+                >
+            </li>
         </ul>
     </div>
 </nav>
@@ -19,7 +30,7 @@
     nav {
         list-style-type: none;
         background-color: black;
-        display: flex;  
+        display: flex;
         justify-content: space-between;
         top: 0;
         left: 0;
@@ -27,7 +38,7 @@
         position: sticky;
         align-items: center;
         height: 4rem;
-        box-shadow: 0 4px 4px -2px rgba(255, 255, 255, .2);
+        box-shadow: 0 4px 4px -2px rgba(255, 255, 255, 0.2);
         transition: 0.2s ease-in-out;
     }
 
@@ -52,7 +63,7 @@
     }
 
     #icons a {
-        padding: .8rem;
+        padding: 0.8rem;
     }
 
     #items a {
@@ -61,7 +72,7 @@
 
     a:hover {
         color: var(--color-accent);
-        transition: 0.2s ease-in-out; 
+        transition: 0.2s ease-in-out;
     }
 
     @media only screen and (max-width: 640px) {
@@ -77,16 +88,17 @@
             height: 6rem;
         }
 
-        #items, #icons {
+        #items,
+        #icons {
             margin: 0;
         }
 
         #icons a {
-            padding: .4em;
+            padding: 0.4em;
         }
 
         #items a {
-            padding: .4em;
+            padding: 0.4em;
         }
     }
 </style>

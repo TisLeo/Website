@@ -1,12 +1,13 @@
 <footer>
-    <img src="https://i.imgur.com/dm1SddH.png" alt="TisLeo Logo">
+    <img src="https://i.imgur.com/dm1SddH.png" alt="TisLeo Logo" />
     <p>© TisLeo 2023</p>
-    <br>
+    <br />
     <div id="items">
         <ul>
             <li class="title"><a href="/">Home</a></li>
             <li class="title"><a href="#tech">Tech</a></li>
             <li class="title"><a href="#projects">Projects</a></li>
+            <li class="title"><a href="https://dev.to/tisleo">Blog</a></li>
         </ul>
     </div>
 </footer>
@@ -34,8 +35,9 @@
         color: var(--color-light-grey);
     }
 
-    #items li:not(:last-child), #items li:not(:first-child) {
-        padding: 0 .5em 0 .5em;
+    #items li:not(:last-child),
+    #items li:not(:first-child) {
+        padding: 0 0.5em 0 0.5em;
     }
 
     a {
@@ -48,7 +50,7 @@
 
     a:hover {
         color: var(--color-accent);
-        transition: 0.2s ease-in-out; 
+        transition: 0.2s ease-in-out;
     }
 
     li {
